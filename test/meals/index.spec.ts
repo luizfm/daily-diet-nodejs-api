@@ -101,7 +101,7 @@ describe('Meals route tests', () => {
       .expect(204)
   })
 
-  it('should be able to get meal by id', async () => {
+  it('should be able to get meal by id.', async () => {
     const createUserResponse = await request(app.server).post('/users').send({
       name: 'Luiz F',
       email: 'luiz.teste@gmail.com',
